@@ -37,4 +37,12 @@ function WPSUSY_admin_enqueue_style_script() {
     wp_enqueue_style( 'wp-color-picker' );
     wp_enqueue_style( 'wpsusy_admin', plugins_url('assets/css/admin.css', __FILE__) );
 }
+// WordPress Plugin Add Settings Link
+add_filter('plugin_action_links_'.plugin_basename(__FILE__), 'WPSUSY_add_plugin_page_settings_link');
+function WPSUSY_add_plugin_page_settings_link( $links ) {
+    $links[] = '<a href="' .
+        admin_url( 'options-general.php?page=wp-susy' ) .
+        '">' . __('Settings') . '</a>';
+    return $links;
+}
 
