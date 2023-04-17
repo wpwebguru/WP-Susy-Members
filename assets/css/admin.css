@@ -1,0 +1,14 @@
+img.social_btn_icon {
+    height: 36px;
+    display: inline-block;
+    margin: auto 0;
+}
+#susy_shortcode{
+    width: auto;
+    min-width: 120px;
+    max-width: 145px;
+    text-align: center;
+}
+#susy_whatsapp_msg_box{
+    width: 550px;
+}

@@ -1,0 +1,77 @@
+.wpsusy_social_btn_wrap{
+    display: inline-block;
+    width: 100%;
+    word-spacing: 10px;
+    text-align: center;
+    background: transparent;
+}
+.wpsusy_btn{
+    display: inline-block;
+    word-break: break-word;
+}
+.wpsusy_social, .wpsusy_social a{
+    overflow: hidden;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition-duration: .2s;
+    transition-property: filter,background-color,border-color;
+    height: 4.5em;
+    cursor: pointer;
+}
+.wpsusy_social:hover{
+    filter: saturate(1.5) brightness(1.2);
+}
+.wpsusy_whatsapp{
+    background-color: #25d366;
+}
+.wpsusy_telegram{
+    background-color: #2ca5e0;
+}
+.wpsusy_email{
+    background-color: #ea4335;
+}
+.wpsusy_phone{
+    background-color: #2dbef3;
+}
+.wpsusy_icon{
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    width: 4.5em;
+    position: relative;
+    transition-property: color,background-color;
+    transition-duration: .2s;
+}
+.btn_icon{
+    width: 30px;
+    height: 30px;
+}
+.wpsusy_text{
+    color: #fff;
+    padding-left: 0.9em;
+    background-image: linear-gradient(90deg,rgba(0,0,0,.12),transparent);
+    font-size: 1.5em;
+    padding-right: 1em;
+    align-self: stretch;
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+    font-weight: 100;
+    transition-property: color,background-color;
+    transition-duration: .2s;
+}
+.btn_txt{
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
