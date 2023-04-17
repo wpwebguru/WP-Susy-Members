@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: WP Susy Members
- * Plugin URI:  https://github.com/wpwebguru/
+ * Plugin URI:  https://github.com/wpwebguru/WP-Susy-Members
  * Author:      Sunny
  * Author URI:  https://github.com/wpwebguru/
  * Description: Display Susy members data as ref functions.
